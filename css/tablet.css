@@ -118,11 +118,11 @@
   .header-link-tel:focus {
     color: var(--hover-color);
   }
-/* ==============MOBILE MENU============= */
-  .mobile-memu-open {
+  /* ==============MOBILE MENU============= */
+  .mobile-menu-open-bnt-icon {
     display: none;
   }
-  .mobile-menu-header{
+  .mobile-menu-header {
     display: none;
   }
 
@@ -165,7 +165,7 @@
   }
 
   /* =============FOOTER ==============*/
-   .footer {
+  .footer {
     background: var(--main-color);
     padding-top: 96px;
     padding-bottom: 96px;
@@ -183,8 +183,9 @@
   .footer-wrap-logo {
     margin-right: none;
     margin-left: none;
-  } */
-  /* ==================FOOTER SOC===================
+  }
+  */
+  /* /* ==================FOOTER SOC=================== */
   .footer-soc-title {
     text-align: left;
   }
@@ -197,4 +198,4 @@
     flex-direction: column;
     justify-content: center;
   }
-} 
+}

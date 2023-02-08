@@ -130,10 +130,10 @@ body {
   padding-bottom: 24px;
 }
 /* ==============MOBILE MENU============= */
-.mobile-menu-open-icon {
+.mobile-menu-open-bnt-icon {
   stroke: black;
 }
-.mobile-memu-open {
+.mobile-menu-bnt-open {
   margin-left: auto;
   border: none;
   background-color: transparent;
@@ -225,7 +225,7 @@ body {
 .mob-soc-list {
   display: flex;
   justify-content: space-between;
-   margin-top: 8px;
+  margin-top: 8px;
 }
 .mob-soc-item {
   width: 40px;
