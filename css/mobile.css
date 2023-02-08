@@ -130,7 +130,7 @@ body {
   padding-bottom: 24px;
 }
 /* ==============MOBILE MENU============= */
-.mobile-menu-opem-icon {
+.mobile-menu-open-icon {
   stroke: black;
 }
 .mobile-memu-open {
@@ -138,6 +138,13 @@ body {
   border: none;
   background-color: transparent;
   padding: 0;
+  opacity: 1;
+  visibility: hidden;
+}
+.mob-menu .is-hidden {
+  opacity: 0;
+  visibility: visible;
+  pointer-events: none;
 }
 .container-mob-menu {
   padding-left: 40px;
@@ -179,30 +186,32 @@ body {
 }
 
 .modal-menu-item {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--main-color);
   margin-bottom: 64px;
 }
 .modal-menu-item:not(:last-child) {
   margin-bottom: 40px;
 }
 .modal-menu-link {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-color);
 }
 
 .modal-menu-email {
+  margin-bottom: 48px;
+}
+.modal-menu-link-tel {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 48px;
 }
 
-.modal-menu-tel {
+.modal-menu-link-email {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -215,10 +224,8 @@ body {
 
 .mob-soc-list {
   display: flex;
-  gap: 56px;
-  justify-content: left;
- 
-  margin-top: 8px;
+  justify-content: space-between;
+   margin-top: 8px;
 }
 .mob-soc-item {
   width: 40px;
@@ -243,8 +250,8 @@ body {
 .modal-menu-link:focus {
   color: var(--hover-color);
 }
-.mob-soc-email:hover,
-.mob-soc-email:focus {
+.modal-menu-link-email :hover,
+.modal-menu-link-email :focus {
   color: var(--hover-color);
   font-weight: 600;
   font-size: 36px;
@@ -252,11 +259,11 @@ body {
   text-transform: capitalize;
   color: var(--accent-text-color);
 }
-.mob-soc-tel:hover,
-.mob-soc-tel:focus {
+.modal-menu-link-tel:hover,
+.modal-menu-link-tel:focus {
   color: var(--hover-color);
   font-weight: 600;
-  font-size: 36px;
+  font-size: 34px;
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--accent-text-color);
@@ -483,7 +490,7 @@ body {
 /* ======================= */
 
 /* =============FOOTER ==============*/
-
+/* 
 .footer-cocontainer {
   display: flex;
   flex-direction: column;
@@ -515,9 +522,9 @@ body {
 }
 .footer-wrap-logo {
   margin-right: 120px;
-}
+} */
 /* =====================FOOTER SOC============================= */
-.footer-wrap-soc {
+/* .footer-wrap-soc {
   min-width: 208px;
   height: 80px;
   margin-right: 80px;
@@ -553,16 +560,15 @@ body {
 .footer-soc-link:hover,
 .footer-soc-link:focus {
   background-color: #31d0aa;
-}
+} */
 
 /* ===========================FOOTER INPUT================== */
-.footer-subscribe-wrap {
+/* .footer-subscribe-wrap {
   min-width: 452px;
   height: 80px;
 }
 .footer-link-btn-wrap {
   display: flex;
-  /* flex-wrap: wrap; */
   flex-direction: column;
   gap: 16px;
 }
@@ -615,7 +621,7 @@ body {
 }
 .footer-btn-text {
   margin-right: 16px;
-}
+} */
 
 /* ========================MODAL WINDOW==================== */
 
