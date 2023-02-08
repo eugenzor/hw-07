@@ -182,6 +182,9 @@
   }
 
   /* ===========================FOOTER INPUT================== */
+  .footer-cocontainer {
+    flex-wrap: wrap;
+  }
   .footer-subscribe-wrap {
     min-width: 452px;
     height: 80px;

@@ -491,8 +491,7 @@ body {
 
 /* =============FOOTER ==============*/
 /* .footer-mob {
- margin-right: auto;
- margin-left: auto;
+margin: 0 auto;
 } */
 .footer {
   background: var(--main-color);
@@ -589,6 +588,7 @@ body {
 }
 
 .footer-btn-submit {
+  display: block;
   position: relative;
   min-width: 162px;
   height: 40px;
