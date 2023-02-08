@@ -868,3 +868,34 @@ body {
 .modal-btn-submit:focus {
   background-color: var(--active-btn-bcg-color);
 }
+
+
+
+  /* =============FOOTER ==============*/
+  .footer-mob {
+    display: none;
+  }
+  .footer-cocontainer {
+    display: flex;
+  }
+  .footer-wrap-soc {
+    min-width: 208px;
+    height: 80px;
+    margin-right: 80px;
+    margin-bottom: 0;
+  }
+  .footer-article {
+    max-width: 264px;
+  }
+
+  /* ===========================FOOTER INPUT================== */
+  .footer-subscribe-wrap {
+    min-width: 452px;
+    height: 80px;
+  }
+  .footer-link-btn-wrap {
+    display: flex;
+    gap: 24px;
+  }
+
+
