@@ -1,4 +1,4 @@
-() => {
+(() => {
   const refs = {
     openMenuBtn: document.querySelector('[data-menu-open]'),
     closeMenuBtn: document.querySelector('[data-menu-close]'),
@@ -10,5 +10,6 @@
 
   function toggleMenu() {
     refs.menu.classList.toggle('is-hidden');
+    refs.menu.classList.toggle('visually-hidden');
   }
-};
+})();
